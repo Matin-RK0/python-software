@@ -3,4 +3,4 @@ def print_nla():
     print("Ramezani")
     print("20")
 
-print_abc()
+print_nla()
