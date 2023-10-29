@@ -1,0 +1,12 @@
+def solve_dv_dt(t, v, vr):
+    if t == 0:
+        return 0
+    dv_dt = (-1 / t) * (v - vr)
+    return dv_dt
+
+
+t = 2
+v = 3
+vr = 1
+result = solve_dv_dt(t, v, vr)
+print("dv/dt:", result)
