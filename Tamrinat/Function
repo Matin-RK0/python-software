@@ -1,0 +1,6 @@
+def print_nla():
+    print("Matin")
+    print("Ramezani")
+    print("20")
+
+print_abc()
