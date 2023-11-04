@@ -1,0 +1,8 @@
+def ce(x, a):
+    y = (x + a / x) / 2
+    return y
+
+x_value = 4
+a_value = 6
+result = ce(x_value, a_value)
+print(result)
