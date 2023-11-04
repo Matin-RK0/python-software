@@ -1,0 +1,8 @@
+def qadr_motlaq(number):
+    if number < 0:
+        return -number
+    else:
+        return number
+num = -5
+result = qadr_motlaq(num)
+print(f"قدر مطلق عدد {num} برابر است با {result}")
