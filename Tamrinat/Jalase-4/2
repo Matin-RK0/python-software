@@ -1,0 +1,13 @@
+import math
+
+def xy(variable1, variable2):
+    
+    result = variable1 ** 2 + variable2 ** 2
+    
+    sqrtt = math.sqrt(result)
+    return sqrtt
+
+var1 = 3
+var2 = 4
+result = xy(var1, var2)
+print(f"جواب : {result}")
