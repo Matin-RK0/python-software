@@ -1,0 +1,8 @@
+def countdown(number):
+    while number > 0:
+        print(number)
+        number -= 1
+    print("stop")
+
+input_number = 5
+countdown(input_number)
