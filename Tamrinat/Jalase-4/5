@@ -1,0 +1,11 @@
+import math
+
+def tabe_f(k, a, i):
+    result = -k + math.sqrt(k**2 + a**2 * i)
+    return result
+
+k_value = 3
+a_value = 2
+i_value = 5
+result = tabe_f(k_value, a_value, i_value)
+print(f"f({i_value}) = {result}")
