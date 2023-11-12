@@ -1,0 +1,12 @@
+import math
+
+x = 1.5
+y = 0.8
+
+sin_x = math.sin(x)
+cos_y = math.cos(y)
+sin_y = math.sin(y)
+
+result = (sin_x / cos_y) * sin_y
+
+print("نتیجه عبارت sin(x) / cos(y) * sin(y):", result)
