@@ -1,0 +1,8 @@
+matin = "matin"
+
+
+length = len(matin)
+
+
+for i in range(length):
+    print(matin[i])
