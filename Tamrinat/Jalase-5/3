@@ -1,0 +1,9 @@
+import math
+
+x = 8.0
+y = 4.0
+t = 2.0
+
+W = math.sqrt(x - y/t)
+
+print("W:", W)
