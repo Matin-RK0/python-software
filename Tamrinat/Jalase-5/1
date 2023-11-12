@@ -1,0 +1,53 @@
+# زاویه x و y
+x = 3.14 / 4
+y = 3.14 / 3
+
+# تعداد تایلور
+n = 10
+
+# تابع محاسبه توان
+def power(base, exponent):
+    result = 1
+    for _ in range(exponent):
+        result *= base
+    return result
+
+# تابع محاسبه فاکتوریل
+def factorial(num):
+    result = 1
+    for i in range(1, num + 1):
+        result *= i
+    return result
+
+# تابع محاسبه سینوس با استفاده از توابع power و factorial
+def calculate_sin(angle, n):
+    result = 0
+    sign = 1
+    for i in range(1, n * 2 + 1, 2):
+        term = sign * (power(angle, i) / factorial(i))
+        result += term
+        sign *= -1
+    return result
+
+# تابع محاسبه کسینوس با استفاده از توابع power و factorial
+def calculate_cos(angle, n):
+    result = 0
+    sign = 1
+    for i in range(0, n * 2, 2):
+        term = sign * (power(angle, i) / factorial(i))
+        result += term
+        sign *= -1
+    return result
+
+# محاسبه سینوس و کسینوس
+sin_x = calculate_sin(x, n)
+cos_y = calculate_cos(y, n)
+
+# جمع کردن سینوس و کسینوس
+result = sin_x + cos_y
+
+print("سینوس x:", sin_x)
+print("کسینوس y:", cos_y)
+print("جمع سینوس x و کسینوس y:", result)
+
+با کمک گرفتن از chat gpt
