@@ -1,0 +1,16 @@
+def check(string, char):
+  
+    string2 = string[::-1]
+
+    
+    i = char in string2
+
+    
+    return i
+
+
+result = check("hello", "o")
+if (result==True):
+    print("false")
+else:
+    print("true")
