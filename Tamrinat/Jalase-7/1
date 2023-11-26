@@ -1,0 +1,16 @@
+string1 = "matin"
+string2 = "matin"
+
+equal = string1 == string2
+not_equal = string1 != string2
+greater_than = string1 > string2
+less_than = string1 < string2
+greater_than_or_equal = string1 >= string2
+less_than_or_equal = string1 <= string2
+
+print(f"Equal: {equal}")
+print(f"Not Equal: {not_equal}")
+print(f"Greater Than: {greater_than}")
+print(f"Less Than: {less_than}")
+print(f"Greater Than or Equal: {greater_than_or_equal}")
+print(f"Less Than or Equal: {less_than_or_equal}")
