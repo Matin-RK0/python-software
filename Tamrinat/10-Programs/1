@@ -1,0 +1,47 @@
+def odd_or_even(num):
+    if num % 2 == 0:
+        print(f"{num} is even.")
+    else:
+        print(f"{num} is odd.")
+
+def count_list(lst):
+    print(f"The number of elements in the list is {len(lst)}.")
+
+def print_numbers(num):
+    for i in range(1, num+1):
+        print(i)
+
+def print_even_numbers(num):
+    for i in range(2, num+1, 2):
+        print(i)
+
+def print_odd_numbers(num):
+    for i in range(1, num+1, 2):
+        print(i)
+
+def create_list(num):
+    lst = []
+    for i in range(1, num+1):
+        lst.append(i)
+    print(lst)
+
+def copy_list(lst):
+    new_lst = lst.copy()
+    print(new_lst)
+
+def sum_list(num):
+    lst = []
+    for i in range(1, num+1):
+        lst.append(i)
+    print(f"The sum of the elements in the list is {sum(lst)}.")
+
+def reverse_list(lst):
+    new_lst = lst[::-1]
+    print(new_lst)
+
+def sum_even_list(num):
+    lst = []
+    for i in range(1, num+1):
+        if i % 2 == 0:
+            lst.append(i)
+    print(f"The sum of the even elements in the list is {sum(lst)}.")
